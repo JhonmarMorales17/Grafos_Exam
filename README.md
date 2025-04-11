@@ -72,5 +72,4 @@ Ejecutar: ./programa
 
 
 
-Este diseño permite encontrar un camino desde A hasta D, pasando por
 
