@@ -1,13 +1,17 @@
 # Grafos_Exam
 
 Nombre completo: Jhonmar Morales
+
 C.I.: 31.607.934
+
 Materia: Estructura Dinámica de Datos
+
 Sección: "A"
 
 Descripción del Problema:
 
 Se desarrolla un sistema para representar rutas entre ciudades utilizando un grafo no dirigido. Cada ciudad es un nodo y cada ruta directa entre ciudades es una arista. El objetivo es encontrar un camino entre dos ciudades, si es posible, usando estructuras dinámicas de datos.
+
 
 Justificación del Uso de Grafos:
 
@@ -31,8 +35,11 @@ La estructura de grafo es ideal para este problema porque:
 -Estructuras Dinámicas Utilizadas
 
 ✔️unordered_map: para asociar cada nodo con su lista de vecinos.
+
 ✔️vector: para almacenar dinámicamente los nodos conectados.
+
 ✔️queue: utilizada para recorrer el grafo por niveles.
+
 ✔️unordered_set: para llevar un control de nodos visitados.
 
 Implementación
@@ -58,14 +65,21 @@ Esto demuestra que el grafo se construyó correctamente y que la lógica de reco
 ❓Cómo Ejecutar❓
 
 Abrir el proyecto en Visual Studio Code.
+
 Compilar con g++ main.cpp grafo.cpp -o programa
+
 Ejecutar: ./programa
+
+
 Diagrama Visual del Grafo
 
 El grafo de ejemplo representa estas conexiones:
 
 A está conectada con B y C
+
 B está conectada con C
+
 C está conectada con D
+
 Este diseño permite encontrar un camino desde A hasta D, pasando por
 
