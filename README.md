@@ -71,15 +71,6 @@ Compilar con g++ main.cpp grafo.cpp -o programa
 Ejecutar: ./programa
 
 
-Diagrama Visual del Grafo
-
-El grafo de ejemplo representa estas conexiones:
-
-A está conectada con B y C
-
-B está conectada con C
-
-C está conectada con D
 
 Este diseño permite encontrar un camino desde A hasta D, pasando por
 
